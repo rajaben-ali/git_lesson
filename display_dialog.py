@@ -20,7 +20,7 @@ def main():
     for i in range(0, len(text_question)):
         print(text_question[i].strip())
         time.sleep(0.05*len(text_question[i].strip()))
-        try:    
+        try:
             print(text_answer[i].strip())
             time.sleep(0.05*len(text_answer[i].strip()))
         except IndexError:
